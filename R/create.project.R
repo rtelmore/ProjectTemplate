@@ -4,7 +4,8 @@ create.project <- function(project.name)
 
   if (file.exists(project.name) || file.exists(tmp.dir))
   {
-    stop(paste("Cannot run create.project() from a directory containing", project.name, "or", tmp.dir))
+    stop(paste("Cannot run create.project() from a directory containing", 
+               project.name, "or", tmp.dir))
   }
   
   dir.create(tmp.dir)

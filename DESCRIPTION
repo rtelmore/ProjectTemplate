@@ -3,8 +3,8 @@ Type: Package
 Title: Automates the creation of new statistical analysis projects.
 Version: 0.2-1
 Date: 2010-12-03
-Author: John Myles White
-Maintainer: John Myles White <jmw@johnmyleswhite.com>
+Author: John Myles White (RTE forked this from JMW's github repo) 
+Maintainer: Ryan Elmore <rtelmore@gmail.com>
 Description: ProjectTemplate provides functions to automatically build a directory structure for a new R project. Using this structure, ProjectTemplate is able to automate data loading, preprocessing, library importing and unit testing.
 License: Artistic-2.0
 LazyLoad: yes
