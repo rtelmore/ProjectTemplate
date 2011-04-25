@@ -1,7 +1,7 @@
 Package: ProjectTemplate
 Type: Package
 Title: Automates the creation of new statistical analysis projects.
-Version: 0.2-1
+Version: 0.3-1
 Date: 2010-12-03
 Author: John Myles White (RTE forked this from JMW's github repo) 
 Maintainer: Ryan Elmore <rtelmore@gmail.com>
