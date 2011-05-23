@@ -2,9 +2,9 @@
 ## Date:
 ## Description:
 
-wd <- ""
+project.path <- ""
 
 ## Dependencies:
-source(paste(wd, "src/load.R", sep=""))
+source(paste(project.path, "src/load.R", sep=""))
 
 

@@ -3,10 +3,10 @@
 ## Prelims
 
 ## Set working directory
-setwd(paste(wd, "src/", sep = ""))
+setwd(paste(project.path, "src/", sep = ""))
 
 ## Load project-specific functions
-source(paste(wd, "src/functions.R", sep=""))
+source(paste(project.path, "src/functions.R", sep=""))
 
 ## Load libraries
 library(ggplot2)
