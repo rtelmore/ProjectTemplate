@@ -12,4 +12,4 @@ source(paste(project.path, "src/functions.R", sep=""))
 library(ggplot2)
 
 ## Load data
-## data.str <- paste(wd, "data/some_data_file.dat", sep = "")
+## data.str <- paste(project.path, "data/some_data_file.dat", sep = "")
