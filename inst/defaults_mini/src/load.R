@@ -3,13 +3,13 @@
 ## Prelims
 
 ## Set working directory
-setwd(paste(project.path, "src/", sep = ""))
+setwd(paste(.project.path, "src/", sep = ""))
 
 ## Load project-specific functions
-source(paste(project.path, "src/functions.R", sep=""))
+source(paste(.project.path, "src/functions.R", sep=""))
 
 ## Load libraries
 library(ggplot2)
 
 ## Load data
-## data.str <- paste(project.path, "data/some_data_file.dat", sep = "")
+## data.str <- paste(.project.path, "data/some_data_file.dat", sep = "")
